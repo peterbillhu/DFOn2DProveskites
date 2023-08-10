@@ -15,7 +15,7 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 ## Google Notebook Tutorial
 
-To ensure the function of the proposed algorithms, we provide a Google Notebook tutorial to show how to generate the density fingerprint of a given unit cell and motif set. In the demonstration, we 
+To ensure the function of the proposed algorithms, we provide a Google Notebook tutorial to demonstrate how to generate the density fingerprint of a given unit cell and motif set. In the demonstration, we exhibit toy examples as shown in the above section. 
 
 https://colab.research.google.com/drive/1vJKg6GXGYTCD2WQ33GOtdIGE7zOawEos?usp=sharing
 
