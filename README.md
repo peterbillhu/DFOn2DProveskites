@@ -20,6 +20,16 @@ We utilize the provided codes to import the proposed algorithms and functions re
 from Algorithms.fast_density_fingerprint import find_relevant_pts, density_fingerprint, plot_density
 ```
 
+To compute the density fingerprint, the unit cell and motif of a material are required. Here is a toy example:
+
+```
+Motif = np.array([[5,5,5]])
+unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
+```
+
+In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell.
+
+
 ## Google Notebook Tutorial
 
 To ensure the function of the proposed algorithms, we provide a Google Notebook tutorial to demonstrate how to generate the density fingerprint of a given unit cell and motif set. In the demonstration, we exhibit toy examples as shown in the above section. 
