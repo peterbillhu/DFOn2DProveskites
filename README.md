@@ -41,13 +41,17 @@ k_up = 9
 # tolerable density value error        
 eps = 0.0001
 # range of the x-axis of the curves
-range_t = (0,1.2)
+range_t = (0,12)
 # fineness of the x-axis of the curves
 fine_t = 100
 ```
 Interpretations for the parameters assigned above are as follows:
 
-1. k_up is the 
+1. k_up is the largest index of discrete density functions. For example, if k_up = 9, then the output density functions are $`\psi_0, \psi_1, \dots, \psi_9`$;
+2. eps is the bias tolerance of density functions Reducing the value of 'eps' will result in smoother density functions.
+3. range_t denotes the domain of the density functions $`\psi_\bullet`$;
+4. fine_t is the fineness of the x-axis of the density functions $`\psi_\bullet`$. It divides the domain range into fine_t grid points and outputs each density functions $`\psi_i`$ as a discrete feature in dimension fine_t.
+
 
 
 
