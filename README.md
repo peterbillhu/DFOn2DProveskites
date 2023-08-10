@@ -16,7 +16,7 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 2. plotting_density_fingerprint.py (Optional): a code file for plotting the density fingerprint. Main function: _plot_density_.
 
-3. unit_cell_tool.py (Optional): a code file for generating unit cell vectors. If
+3. unit_cell_tool.py (Optional): a code file for generating unit cell vectors. If one already has the unit cell basis, then this code file is unnecessary for computing the density fingerprint.
 
 ## Tutorial
 
