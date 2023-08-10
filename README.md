@@ -1,1 +1,1 @@
-# DF_on_2D_Proveskites
+# Geometric data analysis (GDA)-based machine learning for 2D perovskite desig
