@@ -12,7 +12,7 @@ numpy >= 1.21.2
 
 The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al. [1]. In this study, we present an implemented algorithm designed for efficiently calculating the density fingerprint of a given atomic system, comprising both the unit cell and motif set. All codes are in the _Algorithms_ folder:
 
-1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density finger print for a given system of the unit cell and modif set.
+1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density fingerprint for a given system of the unit cell and modif set.
 
 
 ## Tutorial
@@ -20,7 +20,7 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 We utilize the provided codes to import the proposed algorithms and functions required for generating the density fingerprint.
 
 ```python
-from Algorithms.fast_density_fingerprint import find_relevant_pts, density_fingerprint, plot_density
+from Algorithms.fast_density_fingerprint import find_relevant_pts, density_fingerprint
 ```
 
 To compute the density fingerprint, the unit cell and motif of a material are required. Here is a toy example:
@@ -32,7 +32,7 @@ unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 
 In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
-Next, we use the following codes to compute the density fingerprint. First, we need set parameters for the computation.
+Next, we use the following codes to consity fingerprint. First, we need set parameters for the computation.
 
 ```python
 # Density fingerprint parameters:
@@ -46,10 +46,12 @@ range_t = (0,1.2)
 fine_t = 100
 ```
 
+After 
 
-## Google Notebook Tutorial
 
-To ensure the function of the proposed algorithms, we provide a Google Notebook tutorial to demonstrate how to generate the density fingerprint of a given unit cell and motif set. In the demonstration, we exhibit toy examples as shown in the above section. 
+## Google Colab Notebook Tutorial
+
+To present the function of the proposed algorithms, we provide a Google Colab Notebook tutorial to demonstrate how to generate the density fingerprint of a given unit cell and a motif set. In the demonstration, we exhibit and compute the toy examples as shown in the above section. 
 
 https://colab.research.google.com/drive/1vJKg6GXGYTCD2WQ33GOtdIGE7zOawEos?usp=sharing
 
