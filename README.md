@@ -20,5 +20,6 @@ To ensure the function of proposed algorithms, we provide a Google Notebook tuto
 
 https://colab.research.google.com/drive/1vJKg6GXGYTCD2WQ33GOtdIGE7zOawEos?usp=sharing
 
-## References
+## Code References
 
+[1] Edelsbrunner, Herbert, et al. "The density fingerprint of a periodic point set." arXiv preprint arXiv:2104.11046 (2021).
