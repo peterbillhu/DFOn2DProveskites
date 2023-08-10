@@ -18,6 +18,9 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density fingerprint for a given system of the unit cell and motif set.
 
+2. plotting_density_fingerprint.py: a code file for plotting the density fingerprint. Main function: _plot_density_.
+
+3. 
 
 ## Tutorial
 
@@ -47,7 +50,7 @@ k_up = 9
 # tolerable density value error        
 eps = 0.0001
 # range of the x-axis of the curves
-range_t = (0,12)
+range_t = (0,15)
 # fineness of the x-axis of the curves
 fine_t = 100
 ```
@@ -70,6 +73,10 @@ psi_dict = density_fingerprint(pts_k_up, k_up, unit_cell, range_t, fine_t, eps) 
 ### Plot the Density Fingerprint
 
 Let **psi_dict** be the output as above ($`M = \{ (5,5,5) \}`$ and $`U`$ the unit cell with basis $\{ (10,0,0), (0,10,0), (0,0,10) \}$). We can use the following code to plot the density functions $`\psi_\bullet`$.
+
+
+
+![image](https://github.com/peterbillhu/DFOn2DProveskites/assets/28446650/776a7272-4a13-42cf-8ee4-797453a89770)
 
 
 ## Google Colab Notebook Tutorial
