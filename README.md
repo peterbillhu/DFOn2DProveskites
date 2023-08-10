@@ -17,6 +17,8 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 ## Tutorial
 
+### Density Fingerprint Generation 
+
 We utilize the provided codes to import the proposed algorithms and functions required for generating the density fingerprint.
 
 ```python
