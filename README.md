@@ -58,10 +58,6 @@ Interpretations for the parameters assigned above are as follows:
 3. **range_t** denotes the domain of the density functions $`\psi_\bullet`$;
 4. **fine_t** is the fineness of the x-axis of the density functions $`\psi_\bullet`$. It divides the domain range into **fine_t** grid points and outputs each density functions $`\psi_i`$ as a discrete feature in dimension **fine_t**.
 
-
-
-
-
 After obtaining the parameters, one can compute the density fingerprint via the following code:
 
 ```python
@@ -69,6 +65,10 @@ After obtaining the parameters, one can compute the density fingerprint via the 
 pts_k_up, dists_min_k_up = find_relevant_pts(unit_cell, Motif, k_up)
 psi_dict = density_fingerprint(pts_k_up, k_up, unit_cell, range_t, fine_t, eps)  ## psi_dict is a collection of density fingerprint codes
 ```
+### Plot the Density Fingerprint
+
+
+
 
 ## Google Colab Notebook Tutorial
 
