@@ -7,6 +7,8 @@ Implementation of the paper "Geometric data analysis (GDA)-based machine learnin
 ## Requirments
 
 numpy >= 1.21.2
+numba (Optional)
+ase (Optional)
 
 ## File Descriptions
 
