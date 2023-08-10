@@ -36,7 +36,7 @@ Motif = np.array([[5,5,5]])
 unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 ```
 
-In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
+In this example, the rows of the **unit_cell** matrix represent the basis of the unit cell and the **Motif** records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
 Next, we compute the density fingerprints. First, we need set parameters for the computation.
 
@@ -65,9 +65,11 @@ After obtaining the parameters, one can compute the density fingerprint via the 
 pts_k_up, dists_min_k_up = find_relevant_pts(unit_cell, Motif, k_up)
 psi_dict = density_fingerprint(pts_k_up, k_up, unit_cell, range_t, fine_t, eps)  ## psi_dict is a collection of density fingerprint codes
 ```
+**psi_dict** is a collection of NumPy arrays corresponding to the density functions $`\psi_\bullet`$.
+
 ### Plot the Density Fingerprint
 
-
+Let **psi_dict** be the output as above ($`M = \{ (5,5,5) \}`$ and $`U`$ the unit cell with basis $\{ (10,0,0), (0,10,0), (0,0,10) \}$). We can use the following code to plot the density functions $`\psi_\bullet`$.
 
 
 ## Google Colab Notebook Tutorial
