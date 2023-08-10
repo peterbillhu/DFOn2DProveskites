@@ -12,6 +12,8 @@ numpy >= 1.21.2
 
 The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al. [1]. In this study, we present an implemented algorithm designed for efficiently calculating the density fingerprint of a given atomic system, comprising both the unit cell and motif set. All codes are in the _Algorithms_ folder:
 
+1. fast_density_fingerprint.py:
+
 
 ## Tutorial
 
