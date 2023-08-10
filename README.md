@@ -72,11 +72,17 @@ psi_dict = density_fingerprint(pts_k_up, k_up, unit_cell, range_t, fine_t, eps) 
 
 ### Plot the Density Fingerprint
 
-Let **psi_dict** be the output as above ($`M = \{ (5,5,5) \}`$ and $`U`$ the unit cell with basis $\{ (10,0,0), (0,10,0), (0,0,10) \}$). We can use the following code to plot the density functions $`\psi_\bullet`$.
+Let **psi_dict** be the output as above ($`M = \{ (5,5,5) \}`$ and $`U`$ the unit cell with basis $\{ (10,0,0), (0,10,0), (0,0,10) \}$). We can use the following codes to plot the density functions $`\psi_\bullet`$.
 
+First, we import the plotting tool:
 
+```python
+from Algorithms.plotting_density_fingerprint import plot_density
+```
 
-![image](https://github.com/peterbillhu/DFOn2DProveskites/assets/28446650/776a7272-4a13-42cf-8ee4-797453a89770)
+Second, we use the following code to plot the density functions $`\psi_\bullet`$. In this example, the functions are $`\psi_0, \psi_1, \dots, \psi_9`$.
+
+![image](https://github.com/peterbillhu/DFOn2DProveskites/assets/28446650/cae6197f-4680-4e8a-b0ff-c532ce41552a)
 
 
 ## Google Colab Notebook Tutorial
