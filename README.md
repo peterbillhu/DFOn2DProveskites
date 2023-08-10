@@ -27,7 +27,7 @@ Motif = np.array([[5,5,5]])
 unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 ```
 
-In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell.
+In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates.
 
 
 ## Google Notebook Tutorial
