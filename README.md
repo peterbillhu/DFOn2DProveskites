@@ -16,6 +16,9 @@ ase (Optional)
 
 ## Google Notebook Tutorial
 
-To ensure the function of proposed algorithms, we provide a Google Notebook tutorial to show how to generate density fingerprint of a given unit cell and motif set. 
+To ensure the function of proposed algorithms, we provide a Google Notebook tutorial to show how to generate density fingerprint of a given unit cell and motif set. In the demonstration, we 
 
 https://colab.research.google.com/drive/1vJKg6GXGYTCD2WQ33GOtdIGE7zOawEos?usp=sharing
+
+## References
+
