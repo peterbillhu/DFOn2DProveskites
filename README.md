@@ -19,13 +19,13 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 We utilize the provided codes to import the proposed algorithms and functions required for generating the density fingerprint.
 
-```
+```python
 from Algorithms.fast_density_fingerprint import find_relevant_pts, density_fingerprint, plot_density
 ```
 
 To compute the density fingerprint, the unit cell and motif of a material are required. Here is a toy example:
 
-```
+```python
 Motif = np.array([[5,5,5]])
 unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 ```
@@ -34,7 +34,7 @@ In this example, the rows of the unit_cell matrix represent the basis of the uni
 
 Next, we use the following codes to compute the density fingerprint. First, we need set parameters for the computation.
 
-```
+```python
 # Density fingerprint parameters:
 # compute \psi_k, k = 0, 1, 2, ..., k_up
 k_up = 9
