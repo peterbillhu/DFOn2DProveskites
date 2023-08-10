@@ -14,9 +14,9 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density fingerprint for a given system of the unit cell and motif set.
 
-2. plotting_density_fingerprint.py: a code file for plotting the density fingerprint. Main function: _plot_density_.
+2. plotting_density_fingerprint.py (Optional): a code file for plotting the density fingerprint. Main function: _plot_density_.
 
-3. 
+3. unit_cell_tool.py (Optional): a code file for generating unit cell vectors. If
 
 ## Tutorial
 
