@@ -12,7 +12,7 @@ numpy >= 1.21.2
 
 The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al. [1]. In this study, we present an implemented algorithm designed for efficiently calculating the density fingerprint of a given atomic system, comprising both the unit cell and motif set. All codes are in the _Algorithms_ folder:
 
-1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density fingerprint for a given system of the unit cell and modif set.
+1. fast_density_fingerprint.py: the kernel code file of the project, where the functions _find_relevant_pts_ and _density_fingerprint_ are sufficient to compute the density fingerprint for a given system of the unit cell and motif set.
 
 
 ## Tutorial
@@ -32,7 +32,7 @@ unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 
 In this example, the rows of the unit_cell matrix represent the basis of the unit cell and the Motif records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
-Next, we use the following codes to consity fingerprint. First, we need set parameters for the computation.
+Next, we compute the density fingerprints. First, we need set parameters for the computation.
 
 ```python
 # Density fingerprint parameters:
@@ -46,8 +46,13 @@ range_t = (0,1.2)
 fine_t = 100
 ```
 
-After 
+After obtaining the parameters, one can compute the density fingerprint via the following code:
 
+```python
+# Compute the density fingerprint
+pts_k_up, dists_min_k_up = find_relevant_pts(unit_cell, Motif, k_up)
+psi_dict = density_fingerprint(pts_k_up, k_up, unit_cell, range_t, fine_t, eps)  ## psi_dict is a collection of density fingerprint codes
+```
 
 ## Google Colab Notebook Tutorial
 
