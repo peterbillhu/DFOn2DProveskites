@@ -81,7 +81,7 @@ Second, we use the following code to plot the density functions $`\psi_\bullet`$
 ![image](https://github.com/peterbillhu/DFOn2DProveskites/assets/28446650/cae6197f-4680-4e8a-b0ff-c532ce41552a)
 
 
-### Unit Cell Tool
+### The Unit Cell Tool
 
 Some material data may only provide the unit cell's _scales_ (a, b, c) and _angles_ $`(\alpha, \beta, \gamma)`$.
 
