@@ -81,6 +81,21 @@ Second, we use the following code to plot the density functions $`\psi_\bullet`$
 ![image](https://github.com/peterbillhu/DFOn2DProveskites/assets/28446650/cae6197f-4680-4e8a-b0ff-c532ce41552a)
 
 
+### Unit Cell Tool
+
+Some material data may only provide the unit cell's _scales_ (a, b, c) and _angles_ $`(\alpha, \beta, \gamma)`$.
+
+```python
+# Import the get_unit_cell function
+from Algorithms.unit_cell_tool import get_unit_cell
+get_unit_cell(scales=np.array([10,10,10]), angles=np.array([90,90,90]))
+```
+
+The output Numpy array is as follows:
+> array([[1.000000e+01, 0.000000e+00, 0.000000e+00],
+       [6.123234e-16, 1.000000e+01, 0.000000e+00],
+       [6.123234e-16, 6.123234e-16, 1.000000e+01]])
+
 ## Google Colab Notebook Tutorial
 
 To present the function of the proposed algorithms, we provide a Google Colab Notebook tutorial to demonstrate how to generate the density fingerprint of a given unit cell and a motif set. In the demonstration, we exhibit and compute the toy examples as shown in the above section. 
