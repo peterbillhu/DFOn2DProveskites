@@ -45,6 +45,12 @@ range_t = (0,1.2)
 # fineness of the x-axis of the curves
 fine_t = 100
 ```
+Interpretations for the parameters assigned above are as follows:
+
+1. k_up is the 
+
+
+
 
 After obtaining the parameters, one can compute the density fingerprint via the following code:
 
