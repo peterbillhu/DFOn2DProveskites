@@ -24,6 +24,12 @@ The Density Fingerprint algorithm was initially introduced by Edelsbrunner et al
 
 We utilize the provided codes to import the proposed algorithms and functions required for generating the density fingerprint.
 
+To compute the density fingerprint, the unit cell and motif of a material are required. Here is a toy example:
+
+```python
+Motif = np.array([[5,5,5]])
+unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
+```
 In this example, the rows of the **unit_cell** matrix represent the basis of the unit cell and the **Motif** records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
 Next, we compute the density fingerprints. First, we need set parameters for the computation.
