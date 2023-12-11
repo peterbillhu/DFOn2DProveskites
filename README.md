@@ -32,12 +32,8 @@ unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 ```
 In this example, the rows of the **unit_cell** matrix represent the basis of the unit cell and the **Motif** records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
-Next, we compute the density fingerprints. First, we need set parameters for the computation.
+Next, we compute the density fingerprints. First, we need to set parameters for the computation.
 
-```python
-!pip install ripser umap-learn kmapper persim PersistenceImages
-!pip install gudhi
-```
 Interpretations for the parameters assigned above are as follows:
 
 1. **k_up** is the largest index of discrete density functions. For example, if **k_up** = 9, then the output density functions are $`\psi_0, \psi_1, \dots, \psi_9`$;
