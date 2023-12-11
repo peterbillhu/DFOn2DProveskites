@@ -40,15 +40,8 @@ In this example, the rows of the **unit_cell** matrix represent the basis of the
 Next, we compute the density fingerprints. First, we need set parameters for the computation.
 
 ```python
-# Density fingerprint parameters:
-# compute \psi_k, k = 0, 1, 2, ..., k_up
-k_up = 9
-# tolerable density value error        
-eps = 0.0001
-# range of the x-axis of the curves
-range_t = (0,15)
-# fineness of the x-axis of the curves
-fine_t = 100
+!pip install ripser umap-learn kmapper persim PersistenceImages
+!pip install gudhi
 ```
 Interpretations for the parameters assigned above are as follows:
 
