@@ -33,11 +33,6 @@ unit_cell = np.array([[10,0,0], [0,10,0], [0,0,10]])
 In this example, the rows of the **unit_cell** matrix represent the basis of the unit cell and the **Motif** records the unique central point in the unit cell. We note that the coordinates of motif points are absolute coordinates (not fractional coordinates).
 
 Next, we compute the density fingerprints. First, we need to set parameters for the computation.
-
-## Step 1: collect the motif set. Here we consider the collection of all 'C' atoms in the unit cell as the motif set:
-Motif = np.array([[0,0,0]])
-unit_cell = np.array([[1,0,0], [0,1,0], [0,0,1]])
-
 ```python
 ## Step 2: compute the density fingerprint:
 # Density fingerprint parameters:
@@ -50,11 +45,6 @@ range_t = (0,1.2)
 # fineness of the x-axis of the curves
 fine_t = 100
 ````
-
-## Step 5: plot the density fingerprint curves:
-plot_density(psi_dict, range_t, 0, k_up-1, dpi=300, title='Density fingerprints')
-
-
 Interpretations for the parameters assigned above are as follows:
 
 1. **k_up** is the largest index of discrete density functions. For example, if **k_up** = 9, then the output density functions are $`\psi_0, \psi_1, \dots, \psi_9`$;
