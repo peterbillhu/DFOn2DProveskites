@@ -97,6 +97,8 @@ To present the function of the proposed algorithms, we provide a Google Colab No
 
 https://colab.research.google.com/drive/1vJKg6GXGYTCD2WQ33GOtdIGE7zOawEos?usp=sharing
 
+For the Google Drive location of the notebook, refer to: https://drive.google.com/drive/folders/1TmKzAdcf7fKtqzP3QMLm99QkASWAxR_T?usp=sharing
+
 ## Code References
 
 [1] Edelsbrunner, Herbert, et al. "The density fingerprint of a periodic point set." arXiv preprint arXiv:2104.11046 (2021).
